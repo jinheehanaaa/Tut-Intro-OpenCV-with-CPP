@@ -25,6 +25,9 @@
 - Image Dilation
 - Image Erode
 
+# Chapter 3
+- We need to resize & crop for CPU to process region of interest
+
 # Library
 - [OPENCV 4.8]
 
