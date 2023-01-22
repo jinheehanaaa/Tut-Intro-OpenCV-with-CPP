@@ -23,9 +23,26 @@ int main() {
 */
 
 // Video
+/*
 int main() {
 	string path = "Resources/test_video.mp4";
 	VideoCapture cap(path);
+	Mat img;
+
+	// Read image in video 1-by-1
+	while (true) {
+
+		cap.read(img);
+		imshow("Image", img);
+		waitKey(1); // delay (in ms)
+	}
+}
+*/
+
+// Webcam
+int main() {
+
+	VideoCapture cap(0); // Video Webcam 0 for 1 webcam
 	Mat img;
 
 	// Read image in video 1-by-1
