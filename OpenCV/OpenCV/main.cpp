@@ -8,23 +8,19 @@ using namespace cv;
 using namespace std;
 
 
-// Resize and Crop
+// Draw Shapes and Text
 int main() {
-	string path = "Resources/꼬부기.jpg";
-	Mat img = imread(path);
-	Mat imgResize, imgCrop;
+	// Blank Image
+	Mat img(512, 512, CV_8UC3, Scalar(255, 255, 255));
 
+	circle(img, Point(256, 256), 155, Scalar(0, 69, 255), FILLED);
 
+	rectangle(img, Point(130, 226), Point(382, 286), Scalar(255, 255, 255), FILLED);
+	line(img, Point(130, 296), Point(382, 296), Scalar(255, 255, 255), 2);
 
- 	resize(img, imgResize, Size(), 0.1,0.1);
-
-	Rect roi(200, 150, 500, 500); //region of interest
-	imgCrop = img(roi);
+	putText(img, "han-gung-geu-mi", Point(137, 262), FONT_HERSHEY_DUPLEX, 0.75, Scalar(0, 69, 255), 2);
 
 	imshow("Image", img);
-	imshow("Image Resize", imgResize);
-	imshow("Image Crop", imgCrop);
-
 
 	waitKey(0);
 }

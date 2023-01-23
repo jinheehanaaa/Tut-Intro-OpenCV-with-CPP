@@ -28,6 +28,11 @@
 # Chapter 3
 - We need to resize & crop for CPU to process region of interest
 
+# Chapter 4
+- Draw Shapes and Text 
+- This is handy for drawing bounnding box aroun the object
+
+
 # Library
 - [OPENCV 4.8]
 
