@@ -40,11 +40,14 @@
 - Trackbar with createTrackbar function
 
 # Chapter 7: Shapes Detection
-
 - Dilation is much better for detecting object rather than using with canny
 - Unlike Python, we need to define data type for contours & hierarchy
 - Add filter for certain value
 - Bounding box (peri) around the object
+
+# Chapter 8: 2:14:53 
+- TODO
+
 
 # Library
 - [OPENCV 4.8]
