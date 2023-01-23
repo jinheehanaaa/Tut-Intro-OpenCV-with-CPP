@@ -32,6 +32,19 @@
 - Draw Shapes and Text 
 - This is handy for drawing bounnding box aroun the object
 
+# Chapter 5
+- Warp Perspective
+
+# Chapter 6: Color Detection
+- HSV (Hue, Saturation, Value)
+- Trackbar with createTrackbar function
+
+# Chapter 7: Shapes Detection
+
+- Dilation is much better for detecting object rather than using with canny
+- Unlike Python, we need to define data type for contours & hierarchy
+- Add filter for certain value
+- Bounding box (peri) around the object
 
 # Library
 - [OPENCV 4.8]
